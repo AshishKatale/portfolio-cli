@@ -1,0 +1,56 @@
+#terminal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1em;
+  margin: 0.5em;
+  overflow-y: auto;
+  color: var(--terminal-text-color);
+  border-radius: 1em;
+  background-color: var(--terminal-bg);
+  scroll-behavior: smooth;
+}
+
+.commandline {
+  display: flex;
+}
+
+.uname {
+  color: var(--uname-color);
+}
+
+.dollar {
+  color: var(--dollar-color);
+}
+
+#cmd {
+  flex-grow: 1;
+  position: relative;
+}
+
+#command {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  color: var(--terminal-text-color)
+}
+
+#readline {
+  all: unset;
+  width: 100%;
+}
+
+#command-suggest {
+  background: transparent;
+  color: var(--suggest-color);
+  white-space: nowrap;
+}
+/**/
+/* .panel { */
+/*     background: var(--root-bg); */
+/*     padding: 1em; */
+/*     margin: 0.5em 0; */
+/*     border-radius: 0.5em; */
+/* } */
